@@ -56,11 +56,11 @@
 
 
         <!-- jstl: JSP标准标签库 -->
-<!--        <dependency>-->
-<!--            <groupId>javax.servlet</groupId>-->
-<!--            <artifactId>jstl</artifactId>-->
-<!--            <version>1.2</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
 
         <!-- JUnit: java的一种测试框架 -->
         <dependency>
@@ -103,7 +103,7 @@
     </dependencies>
 
     <build>
-        <!-- 打包后的包名（和我们部署的项目名一致） -->
+        <!-- 打包后的包名 -->
         <finalName>blog</finalName>
         <plugins>
             <plugin>
