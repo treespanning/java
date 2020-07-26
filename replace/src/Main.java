@@ -14,7 +14,7 @@ public class Main {
         }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("输入字符串？");
+        System.out.println("输入字符串?");
         StringBuffer str = new StringBuffer(sc.nextLine());
         System.out.println(replaceSpace(str));
     }
