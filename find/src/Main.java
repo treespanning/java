@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class Main {
+    //
     public static boolean Find(int target, int [][] array) {
         //从右上往左下查找
         int i=0;
