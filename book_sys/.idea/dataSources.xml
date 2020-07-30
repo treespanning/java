@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="book@localhost" uuid="ec22ff2e-be82-4ce1-928a-8312da3f5160">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/book</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Chatroom@localhost" uuid="d10850ff-df02-4042-a4d0-71a3a66307e7">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/Chatroom</jdbc-url>
+    </data-source>
+  </component>
+</project>
