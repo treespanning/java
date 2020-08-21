@@ -25,7 +25,7 @@ public class Main{
                     count++;
                 }
             }
-            //字符串A的最后一位也需要插入一次
+            ////字符串A的最后一位也需要插入一次
             String Str2 = A.concat(B);
             if(isPri(Str2)){
                 count++;
@@ -38,6 +38,7 @@ public class Main{
         Scanner in=new Scanner(System.in);
         String A = in.nextLine();
         String B= in.nextLine();
-        int count=inn(A,B); System.out.println(count);
+        int count=inn(A,B);
+        System.out.println(count);
     }
 }
